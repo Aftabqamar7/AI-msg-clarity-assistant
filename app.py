@@ -110,6 +110,6 @@ if analyze_clicked:
 
 st.divider()
 st.caption(
-    "Built for a hackathon MVP • Streamlit + Groq (Llama 3.3 70B) • "
+    "Built for a hackathon MVP • Streamlit + Groq (openai/gpt-oss-120b) • "
     "Set `GROQ_API_KEY` in Streamlit secrets for deployment."
 )
