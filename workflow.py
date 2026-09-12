@@ -20,7 +20,7 @@ from groq import Groq
 
 # Fast + strong instruction-following model on Groq.
 # Other options: "llama-3.1-8b-instant", "mixtral-8x7b-32768" (if available)
-MODEL = "llama-3.3-70b-versatile"
+MODEL = "openai/gpt-oss-120b"
 
 SYSTEM_PROMPT = """You are a writing-clarity analyst. You review a message someone
 is about to send (email, Slack message, doc excerpt, etc.) and help them make it
